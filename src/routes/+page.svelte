@@ -42,7 +42,7 @@
 	<section class="pt-24 pb-40 px-4 text-center max-w-6xl mx-auto relative z-10">
 		<h1 class="text-6xl md:text-8xl font-serif mb-8 tracking-tight leading-[0.95]">The spreadsheet<br/>purpose-built for<br/>power users</h1>
 		<p class="text-gray-400 text-xl md:text-2xl mb-12 max-w-3xl mx-auto font-light leading-relaxed">
-			Work offline. Pull in data from anywhere. Track every source at a glance.<br/>AI sits inside your models, building and reviewing without you ever leaving your spreadsheet.
+			Work offline. Pull in data from anywhere. Track every source at a glance. AI sits inside your models, building and reviewing without you ever leaving your spreadsheet.
 		</p>
 
 		<div class="flex flex-col sm:flex-row items-center justify-center gap-3 mb-6 max-w-md mx-auto">
