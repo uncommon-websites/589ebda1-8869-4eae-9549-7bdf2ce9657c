@@ -2,18 +2,18 @@
 	let email = '';
 	
 	const faqs = [
-		{ question: "How is Nummo different from Excel or Google Sheets?", answer: "Nummo stores models as semantic graphs rather than cell grids. Each metric is a defined concept with tracked dependencies, enabling AI to build, audit, and extend models deterministically. This means you get the power of Excel with AI that actually understands your model structure, not just cell references." },
-		{ question: "Do I need to learn new keyboard shortcuts?", answer: "No. Nummo maintains Excel keyboard shortcut parity across both Mac and PC, eliminating the tragic offboarding when switching between devices. All your Alt and Ctrl shortcuts work exactly as expected, so you can work with zero learning curve while gaining powerful new capabilities." },
-		{ question: "Can Nummo work offline?", answer: "Yes. Nummo is local-first and computes on your machine by default. You can build and edit models without internet connectivity, which is critical for working on planes, in secure environments, or anywhere without reliable internet. Your data stays on your machine." },
-		{ question: "How does Nummo handle sensitive financial data?", answer: "Raw numbers never leave your desktop by default. Data can only flow in, never out. We offer custom LLM deployment and on-premises options for PE funds, investment banks, and regulated institutions. Your security team can audit exactly how data flows through the system." },
-		{ question: "What happens to my model history?", answer: "Every .nummo file contains your complete model history - every version, query, source, and manual change. You can branch, compare, and commit changes with git-style version control. This means you can hand off a single file that contains everything your colleague needs to understand the model's evolution." },
-		{ question: "Can I integrate with my existing data sources?", answer: "Yes. Nummo's Research Center pulls live data from FactSet, SEC filings, earnings calls, and your internal systems. We support custom integrations with financial research providers, accounting software, data room providers, and proprietary data feeds. Your data flows directly into your models without manual copy-paste." },
-		{ question: "Is Nummo suitable for complex LBO and DCF models?", answer: "Absolutely. Nummo is built specifically for investment banking and private equity workflows including LBO models, DCF analysis, merger models, portfolio company operating models, and scenario planning. The semantic graph architecture handles circular references, complex dependencies, and multi-case modeling that would break traditional spreadsheets." },
-		{ question: "How does the AI understand my models?", answer: "The semantic graph structure is retained by LLMs, enabling deterministic changes. Instead of treating your model as a grid of cells, AI understands concepts like 'Revenue Growth Rate' and 'EBITDA Margin' with their dependencies. This means AI can make intelligent changes that propagate correctly through your entire model, not just modify individual cells." },
-		{ question: "Can I share models with my team?", answer: "Yes. The single .nummo file format simplifies sharing - no more emailing multiple versions or losing track of changes. Source Visualization shows the origin of every number, making handoffs seamless. Your colleague can see exactly where each assumption came from and what data sources were used." },
-		{ question: "What if I don't like a change the AI made?", answer: "Nummo includes full version control with branching and checkpoints. You can compare any two versions side-by-side, revert to any previous state with one click, or create branches to test scenarios without affecting your main model. Every change is tracked and reversible." },
-		{ question: "Who is Nummo built for?", answer: "Nummo is purpose-built for power users in finance: VC and PE associates doing diligence models and portfolio tracking, investment banking analysts building LBO and DCF models, strategic finance teams doing scenario planning, and anyone who lives in spreadsheets and needs their models to work for them, not against them." },
-		{ question: "How does the .nummo file format work?", answer: "The .nummo file format encapsulates everything: your model structure, all queries, manual changes, research context, data sources, and hundreds of versions in one seamless file. This eliminates the nightmare of tracking multiple Excel versions, external data files, and email chains. One file contains the complete story of your model." }
+		{ question: "How is Nummo different from Excel or Google Sheets?", answer: "Nummo is rebuilding Excel with paradigm-shifting UX. We match Excel's functional parity but add local-first architecture, Alt/Ctrl shortcut parity across Mac and PC, open ecosystem integrations, git-style versioning, and AI that sits inside your models. Models are stored as semantic graphs rather than cell grids, enabling AI to understand your model structure." },
+		{ question: "Do I need to learn new keyboard shortcuts?", answer: "No. Nummo maintains Alt/Ctrl shortcut parity across both Mac and PC, eliminating the tragic offboarding when switching devices. All your Excel keyboard shortcuts work exactly as expected, so you can work with zero learning curve." },
+		{ question: "Can Nummo work offline?", answer: "Yes. Nummo is local-first and works offline by default. You can build and edit models without internet connectivity. Your data stays on your machine. Data can only flow in, never out." },
+		{ question: "How does Nummo handle sensitive financial data?", answer: "Data can only flow in, never out. Raw numbers stay on your desktop by default. We offer custom LLM deployment and on-premises options for PE funds, investment banks, and regulated institutions." },
+		{ question: "What is the .nummo file format?", answer: "The .nummo file format encapsulates all queries, manual changes, research context, and hundreds of spreadsheet versions in one seamless handoff. One file contains everything your colleague needs to understand the model's complete history." },
+		{ question: "Can I integrate with my existing data sources?", answer: "Yes. Research Center pulls in data from anywhere: FactSet, SEC filings, earnings calls, and your internal systems. We support custom integrations with financial research providers, accounting software, data room providers, and proprietary data feeds." },
+		{ question: "What does git-style versioning mean?", answer: "Git-style versioning for collaboration and visualized self-review. You can branch, compare, and commit changes. Every .nummo file contains your complete model history. You can revert to any previous state or create branches to test scenarios." },
+		{ question: "How does the AI work?", answer: "AI sits inside your models: building, editing, and reviewing. The semantic graph structure is retained by LLMs, enabling deterministic changes. Our proprietary spreadsheet pattern eval set fully removes the need for Macros/VBA Code in Excel entirely." },
+		{ question: "Who is Nummo built for?", answer: "Nummo is purpose-built for power users: VC and PE firms (especially ex-IB/PE operators who are now Mac-first), investment banking analysts, strategic finance teams, FP&A, CorpDev, consulting, and anyone who lives in spreadsheets." },
+		{ question: "Can Nummo replace Apple Numbers?", answer: "Yes. Nummo is built for Mac users who wished they had Excel keyboard shortcuts. We provide functional parity with Excel but with proper Alt/Ctrl shortcuts that work on Mac, eliminating the tragic offboarding from PC to Mac." },
+		{ question: "What is Source Visualization?", answer: "Source Visualization shows the origin of every number in your model. Track every source at a glance. Each metric is tracked with its dependencies, giving you complete visibility into your model structure and where each assumption came from." },
+		{ question: "What integrations does Nummo support?", answer: "Open ecosystem with custom integrations including financial research providers, accounting software, healthcare systems, logistics data feeds, data room providers, and more. You never have to leave your spreadsheet workstation." }
 	];
 </script>
 
@@ -38,9 +38,9 @@
 
 	<!-- Hero Section -->
 	<section class="pt-24 pb-40 px-4 text-center max-w-6xl mx-auto relative z-10">
-		<h1 class="text-6xl md:text-8xl font-serif mb-8 tracking-tight leading-[0.95]">The spreadsheet<br/>purpose-built for<br/>power users</h1>
+		<h1 class="text-6xl md:text-8xl font-serif mb-8 tracking-tight leading-[0.95]">The new<br/>spreadsheet OS</h1>
 		<p class="text-gray-400 text-xl md:text-2xl mb-12 max-w-3xl mx-auto font-light leading-relaxed">
-			Work offline. Pull in data from anywhere. Track every source at a glance. AI sits inside your models, building and reviewing without you ever leaving your spreadsheet.
+			A spreadsheet purpose-built for power users. Work offline, pull in data from anywhere, and track every source at a glance. AI sits inside your models: building, editing, and reviewing.
 		</p>
 
 		<div class="flex flex-col sm:flex-row items-center justify-center gap-3 mb-6 max-w-md mx-auto">
@@ -73,8 +73,8 @@
 			
 			<!-- Floating feature callouts -->
 			<div class="absolute top-8 left-8 bg-black/80 backdrop-blur-md border border-white/20 rounded-xl px-4 py-3 text-xs max-w-xs opacity-0 group-hover:opacity-100 transition-opacity duration-500">
-				<div class="text-brand-green font-semibold mb-1">AI Chat Agent</div>
-				<div class="text-gray-300 text-[11px] leading-relaxed">Ask questions, build models, and review assumptions without leaving your spreadsheet</div>
+				<div class="text-brand-green font-semibold mb-1">AI Inside Your Models</div>
+				<div class="text-gray-300 text-[11px] leading-relaxed">AI builds, edits, and reviews without you leaving your spreadsheet or losing your Alts & Ctrls</div>
 			</div>
 			
 			<div class="absolute bottom-8 right-8 bg-black/80 backdrop-blur-md border border-white/20 rounded-xl px-4 py-3 text-xs max-w-xs opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-100">
@@ -92,12 +92,12 @@
 	<section class="bg-white text-dark-bg py-32">
 		<div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-20 items-center">
 			<div>
-				<h2 class="text-5xl md:text-6xl font-serif mb-8 leading-tight">Every number,<br/>fully traced</h2>
+				<h2 class="text-5xl md:text-6xl font-serif mb-8 leading-tight">Your numbers<br/>finally work for you</h2>
 				<p class="text-gray-600 text-xl leading-relaxed mb-8">
-					Source Visualization shows the origin of every number in your model. AI builds formulas, audits dependencies, and catches errors before they reach your MD.
+					Track every source at a glance. AI builds, edits, and reviews your models without you leaving your spreadsheet or losing your Alts & Ctrls.
 				</p>
 				<p class="text-gray-500 text-base leading-relaxed">
-					Models are stored as semantic graphs where each metric is a defined concept with tracked dependencies. This structure enables AI to make deterministic, explainable changes while you maintain complete visibility into every assumption and driver.
+					Models are stored as semantic graphs where each metric is a defined concept with tracked dependencies. The semantic graph structure is retained by LLMs, enabling deterministic changes you can audit end-to-end.
 				</p>
 			</div>
 			<div class="relative">
@@ -155,7 +155,7 @@
 			<div class="bg-gray-50 rounded-3xl p-10 md:p-14 hover:bg-gray-100 transition-colors duration-300">
 				<h3 class="text-3xl font-serif mb-5 leading-tight">Semantic graph architecture</h3>
 				<p class="text-gray-600 mb-10 text-base leading-relaxed">
-					Models stored as structured, semantic graphs rather than cell grids. Each metric is a defined concept tied to assumptions, drivers, and dependencies. This graph structure is retained by LLMs, enabling deterministic and explainable changes that you can audit end-to-end.
+					Models stored as semantic graphs rather than cell grids. Each metric is a defined concept with tracked dependencies. The semantic graph structure is retained by LLMs, enabling deterministic changes you can audit end-to-end.
 				</p>
 				<div class="bg-white rounded-2xl shadow-sm border border-gray-200 p-10 h-56 flex items-center justify-center relative overflow-hidden">
 					<!-- Network nodes -->
@@ -189,9 +189,9 @@
 			</div>
 			<!-- Card 2 -->
 			<div class="bg-gray-50 rounded-3xl p-10 md:p-14 hover:bg-gray-100 transition-colors duration-300">
-				<h3 class="text-3xl font-serif mb-5 leading-tight">Local-first architecture</h3>
+				<h3 class="text-3xl font-serif mb-5 leading-tight">Local-first desktop app</h3>
 				<p class="text-gray-600 mb-10 text-base leading-relaxed">
-					Models compute locally on your machine by default. Offline-first design ensures work continues without internet connectivity. Every .nummo file contains your complete model history: every version, query, source, and manual change in one seamless handoff.
+					Work offline with full functionality. Data can only flow in, never out. Every .nummo file encapsulates all queries, manual changes, research context, and hundreds of spreadsheet versions in one seamless handoff.
 				</p>
 				<div class="bg-white rounded-2xl shadow-sm border border-gray-200 p-8 h-56 flex items-center justify-center relative">
 					<!-- Desktop icon -->
@@ -228,7 +228,7 @@
 				<span class="text-brand-green absolute -right-4 bottom-4">”</span>
 			</blockquote>
 			<div class="flex items-center justify-between border-t border-white/10 pt-8">
-				<div class="text-sm font-mono tracking-wide uppercase text-gray-400">Associate at PE Fund</div>
+				<div class="text-sm font-mono tracking-wide uppercase text-gray-400">VC Associate, ex-IB</div>
 				<div class="flex gap-2">
 					<button class="w-8 h-8 border border-white/20 flex items-center justify-center hover:bg-white/10 transition-colors">
 						<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg>
@@ -246,9 +246,9 @@
 		<div class="text-center mb-20" id="features">
 			<div class="text-[10px] uppercase tracking-widest text-gray-500 mb-6">+FEATURES</div>
 			<h2 class="text-5xl md:text-7xl font-serif mb-6 leading-tight">
-				Built for investment<br/>banking workflows
+				Rebuilding Excel with<br/>paradigm-shifting UX
 			</h2>
-			<p class="text-gray-600 text-xl mb-8 max-w-3xl mx-auto">From LBO models to DCF analysis, merger models to portfolio company operating models, Nummo handles the complex financial modeling that drives deals</p>
+			<p class="text-gray-600 text-xl mb-8 max-w-3xl mx-auto">Functional parity with Excel, but with local-first architecture, Alt/Ctrl shortcut parity across Mac and PC, open ecosystem integrations, and git-style versioning</p>
 			<div class="flex items-center justify-center gap-2 text-gray-500 text-sm font-semibold">
 				<svg class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L2 7v10c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V7l-10-5z"/></svg>
 				Desktop application for Mac & PC
@@ -271,9 +271,9 @@
 			<!-- Row 1: Dependency Tracking -->
 			<div class="bg-gray-50 rounded-2xl p-8 md:p-12 grid md:grid-cols-2 gap-12 items-center">
 				<div>
-					<h3 class="text-2xl font-serif mb-4">Complete Dependency Tracking</h3>
+					<h3 class="text-2xl font-serif mb-4">Track every source at a glance</h3>
 					<p class="text-gray-600 text-sm leading-relaxed">
-						Every metric is a semantic concept with tracked dependencies. Navigate complex models end-to-end with full visibility into assumptions and drivers.
+						Source Visualization shows where every number came from. Every metric is tracked with its dependencies, giving you complete visibility into your model structure.
 					</p>
 				</div>
 				<div class="bg-white shadow-lg shadow-gray-200/50 border border-gray-200 rounded-lg p-6 transform rotate-1 transition-transform hover:rotate-0">
@@ -328,17 +328,17 @@
 							</div>
 						</div>
 					</div>
-					<h3 class="text-2xl font-serif mb-2">PortCo Templates</h3>
-					<p class="text-gray-600 text-xs">Portfolio company operating model templates with dynamic revenue builds</p>
+					<h3 class="text-2xl font-serif mb-2">Open ecosystem</h3>
+					<p class="text-gray-600 text-xs">Custom integrations with financial research, accounting software, data rooms, and proprietary data feeds</p>
 				</div>
 			</div>
 
 			<!-- Row 3: Keyboard Shortcuts -->
 			<div class="bg-gray-50 rounded-2xl p-8 md:p-12 grid md:grid-cols-2 gap-12 items-center">
 				<div>
-					<h3 class="text-2xl font-serif mb-4">Excel Keyboard Parity</h3>
+					<h3 class="text-2xl font-serif mb-4">Alt/Ctrl shortcut parity</h3>
 					<p class="text-gray-600 text-sm leading-relaxed mb-6">
-						Maintains Excel keyboard shortcut compatibility for zero learning curve. All your Alt and Ctrl shortcuts work exactly as expected.
+						Excel keyboard shortcuts work across Mac and PC. Eliminates the tragic offboarding when switching devices. Zero learning curve.
 					</p>
 					<div class="space-y-2 text-xs font-mono text-gray-500">
 						<div class="flex justify-between border-b border-gray-200 pb-1"><span>Extend Forecast</span> <span>Ctrl+E</span></div>
@@ -371,7 +371,7 @@
 						</div>
 					</div>
 					<h3 class="text-xl font-serif mb-2">Research Center</h3>
-					<p class="text-gray-500 text-xs">Pull live data from public and private sources into your models</p>
+					<p class="text-gray-500 text-xs">Pull in data from anywhere: FactSet, SEC filings, earnings calls, and your internal systems</p>
 				</div>
 				<div class="bg-gray-50 rounded-2xl p-8">
 					<div class="bg-white border border-gray-200 rounded p-3 mb-6 shadow-sm max-w-[200px]">
@@ -390,8 +390,8 @@
 						<div class="w-8 h-8 rounded bg-black flex items-center justify-center"><div class="w-4 h-4 bg-white/20 grid grid-cols-2 gap-0.5"><div class="bg-white"></div><div class="bg-white"></div><div class="bg-white"></div><div class="bg-white"></div></div></div>
 						<div class="w-8 h-8 rounded-full bg-gray-200"></div>
 					</div>
-					<h3 class="text-xl font-serif mb-2">Custom LLM Options</h3>
-					<p class="text-gray-500 text-xs">Custom LLM deployment and on-premises options for regulated institutions</p>
+					<h3 class="text-xl font-serif mb-2">Custom LLM deployment</h3>
+					<p class="text-gray-500 text-xs">On-premises options for PE funds, investment banks, and regulated institutions</p>
 				</div>
 			</div>
 
@@ -403,8 +403,8 @@
 						<span class="font-bold">Branch</span>
 					</div>
 					<div>
-						<h3 class="text-xl font-serif mb-2">Branch & Revert</h3>
-						<p class="text-gray-500 text-xs">Create branches for scenarios, revert to any previous state instantly</p>
+						<h3 class="text-xl font-serif mb-2">The .nummo file format</h3>
+						<p class="text-gray-500 text-xs">Encapsulates all queries, manual changes, research context, and hundreds of versions in one file</p>
 					</div>
 				</div>
 				<div class="bg-gray-50 rounded-2xl p-8">
@@ -424,8 +424,8 @@
 							<div class="bg-gray-50 h-full"></div>
 						</div>
 					</div>
-					<h3 class="text-xl font-serif mb-2">Scenario Planning</h3>
-					<p class="text-gray-500 text-xs">Automated control panels for base, bull, and bear cases with multi-case modeling</p>
+					<h3 class="text-xl font-serif mb-2">Replace Apple Numbers</h3>
+					<p class="text-gray-500 text-xs">Built for Mac users who need Excel functionality with proper keyboard shortcuts</p>
 				</div>
 			</div>
 		</div>
@@ -435,8 +435,8 @@
 	<section class="bg-dark-bg text-white py-24 border-t border-white/5">
 		<div class="max-w-4xl mx-auto px-6 text-center">
 			<div class="text-[10px] uppercase tracking-widest text-gray-500 mb-6">+DATA SOURCES</div>
-			<h2 class="text-4xl md:text-6xl font-serif mb-8 leading-tight">Research Center integrates<br/>with your data sources</h2>
-			<p class="text-gray-400 text-lg mb-16 max-w-2xl mx-auto leading-relaxed">Pull live data from FactSet, SEC filings, earnings calls, and your internal systems. Sync with data room providers and custom integrations for seamless deal workflows.</p>
+			<h2 class="text-4xl md:text-6xl font-serif mb-8 leading-tight">Pull in data<br/>from anywhere</h2>
+			<p class="text-gray-400 text-lg mb-16 max-w-2xl mx-auto leading-relaxed">Research Center integrates with FactSet, SEC filings, earnings calls, and your internal systems. Custom integrations with data providers and data room providers.</p>
 
 			<div class="bg-[#0A1F1E] border border-white/10 rounded-xl overflow-hidden max-w-md mx-auto relative">
 				<div class="p-4 flex items-center gap-4 border-b border-white/5 bg-[#0F2928] relative z-10">
@@ -478,9 +478,9 @@
 		<div class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-16">
 			<div>
 				<div class="text-[10px] uppercase tracking-widest text-gray-500 mb-6">+SECURITY</div>
-				<h2 class="text-5xl md:text-6xl font-serif mb-8 leading-tight">Your data never<br/>leaves your desktop</h2>
+				<h2 class="text-5xl md:text-6xl font-serif mb-8 leading-tight">Data can only<br/>flow in, never out</h2>
 				<p class="text-gray-600 text-lg mb-6 leading-relaxed">
-					Local-first architecture means raw numbers stay on your machine by default. Data can only flow in, never out.
+					Local-first desktop app. Your data stays on your machine by default. Privacy of numbers preserved.
 				</p>
 				<p class="text-gray-600 text-base mb-10 leading-relaxed">
 					Custom LLM deployment and on-premises options available for PE funds, investment banks, and compliance-heavy organizations. We work with your security team to meet your specific requirements.
