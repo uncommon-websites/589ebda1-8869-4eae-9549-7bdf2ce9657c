@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
+	import IconMonitor from '~icons/lucide/monitor';
 
 	let email = '';
 	
@@ -201,7 +202,9 @@
 						<div class="w-40 h-24 bg-gray-100 rounded-t-lg border-2 border-gray-300"></div>
 						<div class="w-48 h-3 bg-gray-300 rounded-b-lg -mt-px"></div>
 						<div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-center">
-							<div class="text-3xl mb-2">💻</div>
+							<div class="mb-2 flex justify-center">
+								<IconMonitor class="w-8 h-8 text-gray-700" />
+							</div>
 							<div class="text-[10px] text-gray-600 font-semibold">Local Compute</div>
 						</div>
 					</div>
