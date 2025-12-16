@@ -219,12 +219,12 @@
 	</section>
 
 	<!-- Testimonial -->
-	<section class="bg-dark-bg text-white py-40 relative overflow-hidden">
+	<section class="bg-dark-bg text-white py-40 relative overflow-hidden" style="display: none;">
 		<div class="max-w-4xl mx-auto px-6 text-center relative z-10">
 			<div class="text-brand-green text-6xl font-serif absolute -top-10 left-0 opacity-50">“</div>
 			<blockquote class="text-3xl md:text-4xl font-serif leading-tight mb-12 relative">
 				<span class="text-brand-green absolute -left-4 -top-4">“</span>
-				Nummo eliminated our nightly fire drills. The AI caught three errors in our LBO model before we sent it to the MD. This is the future of financial modeling.
+SECTION_TO_DELETE
 				<span class="text-brand-green absolute -right-4 bottom-4">”</span>
 			</blockquote>
 			<div class="flex items-center justify-between border-t border-white/10 pt-8">
