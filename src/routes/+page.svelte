@@ -1,7 +1,4 @@
 <script lang="ts">
-	import { onMount } from 'svelte';
-	import IconMonitor from '~icons/lucide/monitor';
-
 	let email = '';
 	
 	const faqs = [
@@ -203,7 +200,11 @@
 						<div class="w-48 h-3 bg-gray-300 rounded-b-lg -mt-px"></div>
 						<div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-center">
 							<div class="mb-2 flex justify-center">
-								<IconMonitor class="w-8 h-8 text-gray-700" />
+								<svg class="w-8 h-8 text-gray-700" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+									<rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+									<line x1="8" y1="21" x2="16" y2="21"></line>
+									<line x1="12" y1="17" x2="12" y2="21"></line>
+								</svg>
 							</div>
 							<div class="text-[10px] text-gray-600 font-semibold">Local Compute</div>
 						</div>
